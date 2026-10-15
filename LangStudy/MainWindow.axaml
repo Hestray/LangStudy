@@ -1,0 +1,42 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="250" d:DesignHeight="200"
+        x:Class="LangStudy.MainWindow"
+        Title="LangStudy"
+        Width="250"
+        Height="200">
+    <DockPanel>
+        <TextBlock
+            DockPanel.Dock="Top"
+            FontSize="20"
+            FontWeight="700"
+            HorizontalAlignment="Center"
+            Margin="22">
+            LangStudy
+        </TextBlock>
+        <Button 
+            DockPanel.Dock="Top"
+            Width="73"
+            Margin="5"
+            HorizontalContentAlignment="Center"
+            HorizontalAlignment="Center"
+            Click="Config_OnClick">Config</Button>
+        <Button 
+            DockPanel.Dock="Top"
+            Width="73"
+            Margin="5"
+            HorizontalContentAlignment="Center"
+            HorizontalAlignment="Center"
+            Click="Start_OnClick">Start</Button>
+        <TextBlock
+            DockPanel.Dock="Bottom"
+            FontSize="12"
+            Margin="0 0 0 6"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Bottom">
+            Copyright @ Astervoid | 2026
+        </TextBlock>
+    </DockPanel>
+</Window>
